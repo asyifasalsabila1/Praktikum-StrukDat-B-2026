@@ -10,8 +10,8 @@ mahasiswa = ("A001", "Budi", "Informatika") #tuple bernama mahasiswa yang berisi
 print(mahasiswa[1]) #menampilkan index ke-1 pada tuple
 
 #menggunakan perulangan for
-for x in mahasiswa: #untuk setiap x pada tuple mahasiswa
-    print (x) #menampilkan satu per satu elemen
+for item in mahasiswa: #untuk setiap x pada tuple mahasiswa
+    print (item)  #menampilkan satu per satu elemen
 
 """
 tuple tidak bisa diubah karena yang bisa diubah itu adalah list

@@ -9,12 +9,12 @@
 
 
 
-#class init 
-class car
-  def __init__(self, merek , warna.tahun): #methode ny init mengeanalisis car 
-    self.merek  = merek
-    self.warna = warna
-    self.tahun = tahun 
+class init:
+  class Car:
+    def __init__(self, merek, warna, tahun):
+        self.merek = merek
+        self.warna = warna
+        self.tahun = tahun
 
 p1 = car("Toyota","merah",2025)
 p2 = car("lambo", "kuning", "2026") 
@@ -45,27 +45,28 @@ class Person:
     self.name = name
     self.age = age
 
+# objek pertama
 p1 = Person("Emil", 36)
-
 print(p1.name)
 print(p1.age)  #output =emil 36
 
 #class Person:  pass
-p1 = Person()
-p1.name = "Tobias"
-p1.age = 25
+p2 = Person("Tobias", 25)
+print(p2.name)
+print(p2.age)
 
 print(p1.name)
 print(p1.age)  #output tobies 25
 
 #
 class Person:
- def __init__(self, name, age):
-    self.name = name
-    self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-def greet(self):
-    print("Hello, my name is " + self.name)
+    def greet(self):
+        print("Hello, my name is " + self.name)
+
 
 p1 = Person("Emil", 25)
 p1.greet()    #hello my name is emil 
